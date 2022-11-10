@@ -1,0 +1,15 @@
+# Mac OS
+.DS_Store
+
+# Yarn
+node_modules
+yarn-error.log
+yarn-debug.log
+
+# Build files
+dist
+
+.npmrc
+
+# Visual Studio Code
+.vscode
