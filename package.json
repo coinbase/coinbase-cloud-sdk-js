@@ -1,5 +1,5 @@
 {
-  "name": "coinbase-cloud-sdk",
+  "name": "@coinbase/coinbase-cloud-sdk",
   "version": "0.0.1",
   "description": "CoinbaseCloud ether.js SDK",
   "author": "Coinbase Cloud",
