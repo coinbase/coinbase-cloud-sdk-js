@@ -46,7 +46,7 @@ Once the SDK has been installed, you can import and use it within your project.
 To initialize the SDK, create an instance of `CoinbaseCloud` and pass it the authentication credentials found within your project's settings.
 
 ```ts
-import { CoinbaseCloud, Network } from 'coinbase-cloud-sdk';
+import { CoinbaseCloud, Network } from '@coinbase/coinbase-cloud-sdk';
 
 const settings = {
   apiUsername: 'YOUR_USERNAME', // You can find this in your Node project's settings
@@ -104,7 +104,7 @@ For more examples, please visit the Coinbase Node [developer documentation](http
 ##### GetSingleBalance
 
 ```ts
-import { GetSingleBalanceResponse } from 'coinbase-cloud-sdk';
+import { GetSingleBalanceResponse } from '@coinbase/coinbase-cloud-sdk';
 
 const singleBalance: GetSingleBalanceResponse = await coinbaseCloud.advanced
   .getSingleBalance(
@@ -117,7 +117,7 @@ const singleBalance: GetSingleBalanceResponse = await coinbaseCloud.advanced
 ##### GetBalances
 
 ```ts
-import { GetBalancesResponse } from 'coinbase-cloud-sdk';
+import { GetBalancesResponse } from '@coinbase/coinbase-cloud-sdk';
 
 const balances: GetBalancesResponse = await coinbaseCloud.advanced
   .getBalances([
@@ -137,7 +137,7 @@ const balances: GetBalancesResponse = await coinbaseCloud.advanced
 ##### GetTokenAllowances
 
 ```ts
-import { GetTokenAllowancesResponse } from 'coinbase-cloud-sdk';
+import { GetTokenAllowancesResponse } from '@coinbase/coinbase-cloud-sdk';
 
 const allowances: GetTokenAllowancesResponse = await coinbaseCloud.advanced
   .getTokenAllowances([
@@ -154,7 +154,7 @@ const allowances: GetTokenAllowancesResponse = await coinbaseCloud.advanced
 ##### GetTransactionByHash
 
 ```ts
-import { GetTransactionByHashResponse } from 'coinbase-cloud-sdk';
+import { GetTransactionByHashResponse } from '@coinbase/coinbase-cloud-sdk';
 
 const transaction: GetTransactionByHashResponse = await coinbaseCloud.advanced
   .getTransactionByHash(
@@ -165,7 +165,7 @@ const transaction: GetTransactionByHashResponse = await coinbaseCloud.advanced
 ##### GetTransactionsByAddress
 
 ```ts
-import { GetTransactionsByAddressResponse } from 'coinbase-cloud-sdk';
+import { GetTransactionsByAddressResponse } from '@coinbase/coinbase-cloud-sdk';
 
 const transactions: GetTransactionsByAddressResponse = await coinbaseCloud.advanced
   .getTransactionsByAddress(
@@ -182,7 +182,7 @@ const transactions: GetTransactionsByAddressResponse = await coinbaseCloud.advan
 ##### GetTokenTransfersByAddress
 
 ```ts
-import { GetTokenTransfersByAddressResponse } from 'coinbase-cloud-sdk';
+import { GetTokenTransfersByAddressResponse } from '@coinbase/coinbase-cloud-sdk';
 
 const tokenTransfers: GetTokenTransfersByAddressResponse = await coinbaseCloud.advanced
   .getTokenTransfersByAddress(
@@ -201,7 +201,7 @@ const tokenTransfers: GetTokenTransfersByAddressResponse = await coinbaseCloud.a
 ##### GetTokenStandardEvents
 
 ```ts
-import { GetTokenStandardEventsResponse } from 'coinbase-cloud-sdk';
+import { GetTokenStandardEventsResponse } from '@coinbase/coinbase-cloud-sdk';
 
 const tokenEvents: GetTokenStandardEventsResponse = await coinbaseCloud.advanced
   .getTokenStandardEvents(
@@ -218,7 +218,7 @@ const tokenEvents: GetTokenStandardEventsResponse = await coinbaseCloud.advanced
 ##### GetTokenMetadata
 
 ```ts
-import { GetTokenContractMetadataResponse } from 'coinbase-cloud-sdk';
+import { GetTokenContractMetadataResponse } from '@coinbase/coinbase-cloud-sdk';
 
 const tokenMetadata: GetTokenContractMetadataResponse = await coinbaseCloud.advanced
   .getTokenMetadata('0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48');
