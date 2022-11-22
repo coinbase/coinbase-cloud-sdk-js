@@ -1,6 +1,6 @@
 # Coinbase Cloud SDK
 
-[![npm](https://img.shields.io/npm/v/@coinbase/coinbase-cloud-sdk-js)](https://www.npmjs.com/package/@coinbase/coinbase-cloud-sdk)
+[![npm](https://img.shields.io/npm/v/@coinbase/coinbase-cloud-sdk)](https://www.npmjs.com/package/@coinbase/coinbase-cloud-sdk)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/coinbase/coinbase-cloud-sdk-js/badge)](https://api.securityscorecards.dev/projects/github.com/coinbase/coinbase-cloud-sdk-js)
 
 The Coinbase Cloud SDK is a JavaScript SDK that provides access to Coinbase Cloud's Node APIs.
