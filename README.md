@@ -46,7 +46,7 @@ Once the SDK has been installed, you can import and use it within your project.
 To initialize the SDK, create an instance of `CoinbaseCloud` and pass it the authentication credentials found within your project's settings.
 
 ```ts
-import { CoinbaseCloud, Network } from 'coinbase-cloud-sdk';
+import { CoinbaseCloud, Network } from '@coinbase/coinbase-cloud-sdk';
 
 const settings = {
   apiUsername: 'YOUR_USERNAME', // You can find this in your Node project's settings
